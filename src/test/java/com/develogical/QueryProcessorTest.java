@@ -32,6 +32,6 @@ public class QueryProcessorTest {
 
     @Test
     public void correctResponseFromAri() throws Exception {
-        assertThat(queryProcessor.process("ari"), containsString("arii"));
+        assertThat(queryProcessor.process("ari"), containsString("ari"));
     }
 }
